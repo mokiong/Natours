@@ -1,23 +1,23 @@
 {
-  "name": "natours",
-  "version": "1.0.0",
-  "description": "udemy tutorial course for advanced css",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mokiong/Natours.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mokiong/Natours/issues"
-  },
-  "homepage": "https://github.com/mokiong/Natours#readme",
-  "devDependencies": {
-    "node-sass": "^6.0.1"
-  }
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "udemy tutorial course for advanced css",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mokiong/Natours.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mokiong/Natours/issues"
+    },
+    "homepage": "https://github.com/mokiong/Natours#readme",
+    "devDependencies": {
+        "node-sass": "^6.0.1"
+    }
 }
